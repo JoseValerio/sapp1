@@ -15,7 +15,6 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
-
 gem 'sass-rails', '~> 4.0.2'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -28,6 +27,6 @@ group :doc do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg'	
   gem 'rails_12factor'
 end   
